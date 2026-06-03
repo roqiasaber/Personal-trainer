@@ -116,3 +116,63 @@ footer {
     background-color:#E1DCC9;
     color:#412D15;
 }
+
+
+/* ===================================================
+   Media Query للشاشات المتوسطة والصغيرة (اللاب توب والشاشات الأصغر)
+   =================================================== */
+@media (max-width: 1024px) {
+    
+    header h1 {
+        font-size: 2.5em; /* صغرنا العنوان عشان مياكلش الشاشة */
+        top: 15px;
+        left: 15px;
+    }
+
+    header p {
+        font-size: 2em; /* صغرنا حجم البراجراف عشان ميتفردش بالعرض ويدخل في الصورة */
+        top: 80px;
+        left: 15px;
+        line-height: 1.4; /* مسافة مريحة بين السطور المكسورة */
+    }
+
+    .buy-btn {
+        margin-top: 300px; /* رفعنا الزرار شوية عشان لما الخط صغر ميبقاش سايب فراغ كبير */
+        font-size: 0.9em;
+        padding: 12px 20px;
+    }
+
+    nav {
+        top: 20px;
+        right: 15px;
+    }
+    
+    nav a {
+        margin-left: 12px; /* قللنا المسافات بين اللينكات شوية */
+        font-size: 0.9em;
+    }
+}
+
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1.4em;
+        top: 70px;
+    }
+
+    .buy-btn {
+        margin-top: 260px;
+    }
+
+    nav {
+        top: auto;
+        bottom: 20px;
+        left: 50px;
+        right: 50px;
+        text-align: center;
+    }
+}
