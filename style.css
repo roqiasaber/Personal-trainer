@@ -6,6 +6,8 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    direction: ltr;
+    text-align: left;
 }
 
 header {
