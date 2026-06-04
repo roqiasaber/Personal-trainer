@@ -75,7 +75,7 @@ nav a:hover{
 section{
     padding: 40px 20px;
     justify-content: right;
-    direction: rtl;
+    direction: ltr;
     text-align: right;
     font-size: x-large;
     color: #412D15;
