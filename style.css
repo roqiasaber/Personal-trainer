@@ -74,8 +74,9 @@ nav a:hover{
 
 section{
     padding: 40px 20px;
-    justify-content: right;
-    text-align: right;
+    justify-content: flex-start;
+    text-align: left;
+    direction: ltr;
     font-size: x-large;
     color: #412D15;
 }
